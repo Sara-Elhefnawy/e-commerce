@@ -1,5 +1,5 @@
 {
-  "name": "e-commerce-ng",
+  "name": "e-commerce",
   "compatibility_date": "2025-11-01",
   "assets": {
     "directory": "./dist/e-commerce/browser",
