@@ -21,6 +21,9 @@
             "polyfills": [
               "zone.js"
             ],
+            "scripts": [
+              "node_modules/flowbite/dist/flowbite.min.js"
+            ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -38,7 +41,7 @@
               "node_modules/ngx-toastr/toastr.css"
             ],
             "server": "src/main.server.ts",
-            "outputMode": "server",
+            "outputMode": "static",
             "ssr": {
               "entry": "src/server.ts"
             }
@@ -110,5 +113,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
